@@ -8,7 +8,7 @@ public class Pix extends Pagamento {
 
     @Override
     public double processarPagamento() {
-        return getValor(); // sem taxa
+        return getValor();
     }
 
     @Override
